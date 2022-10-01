@@ -11,10 +11,32 @@ mkdir temp
 make
 #+end_src
 
-After this your will see world_of_text in temp folder compiled
+After this your will see =world_of_text= in temp folder compiled
 
 * Running this program
 #+begin_src shell :results scalar
 ./temp/world_of_text iron_man
 #+end_src
 
+* Controls
+- =ESC c= to toggle char-mode
+- =ESC 1-7= to chose different color
+  =COLOR_RED     1=
+  =COLOR_GREEN   2=
+  =COLOR_YELLOW  3=
+  =COLOR_BLUE    4=
+  =COLOR_MAGENTA 5=
+  =COLOR_CYAN    6=
+  =COLOR_WHITE   7=
+- =ESC += to toggle BOLD
+- =ESC *= to toggle BLINKING (My favourite one 😆)
+- =ESC -= to toggle underline
+- =ESC w= to save 
+- =ESC ESC= to exit
+- =Arrows Keys= or emacs key to move
+
+* Program Limitation
+This program can't the same world file in different resolution of monitor.
+
+Meaning: If someone make world in 35x140 resolution of terminal then it can't be runned on 70x280
+resolution of terminal

@@ -92,9 +92,11 @@ void game(char *world_name,world * our_world, int world_height,int world_width){
 				break;
 				
 			case 'w':
+			case 'W':
 				save_world(world_name, our_world,world_height,world_width);
 				break;				
 			case 'c':
+			case 'C':
 				char_mode = ! char_mode;
 				break;
 				
