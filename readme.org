@@ -1,0 +1,20 @@
+#+AUTHOR: NIKHIL RAJ PANDEY
+
+* Introduction
+This is a world of text website replica but in ncurses version.
+[[file:screenshot.png]]
+
+* Building in debian
+#+begin_src shell :results scalar
+sudo apt-get install libncurses5-dev libncursesw5-dev # For installing ncurses
+mkdir temp
+make
+#+end_src
+
+After this your will see world_of_text in temp folder compiled
+
+* Running this program
+#+begin_src shell :results scalar
+./temp/world_of_text iron_man
+#+end_src
+
