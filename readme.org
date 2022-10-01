@@ -19,6 +19,7 @@ After this your will see =world_of_text= in temp folder compiled
 #+end_src
 
 * Controls
+Here ESC c means to first press escape and then press c
 - =ESC c= to toggle char-mode
 - =ESC 1-7= to chose different color
   =COLOR_RED     1=
